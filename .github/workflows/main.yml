@@ -23,9 +23,9 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Hello, Adedeji! I am deploying the site to netlify.
-          echo Deployment started...
-          curl -X POST -d {} ${{secrets.netlify_webhook}}
-          echo Deployment done ...
+      # - name: Run a multi-line script
+      #   run: |
+      #     echo Hello, Adedeji! I am deploying the site to netlify.
+      #     echo Deployment started...
+      #     curl -X POST -d {} ${{secrets.netlify_webhook}}
+      #     echo Deployment done ...
